@@ -52,5 +52,5 @@
 # del n_1[1] #del 해당 데이터를 삭제한다
 # print(n_1)
 
-for i in (range(2, 21)) [: : -1] :
-    print(i)
+# for i in (range(2, 21)) [: : -1] :
+#     print(i)
