@@ -45,3 +45,12 @@
 # a_1.sort()
 # a_1.append(a_2)
 # print(a_2) ★ 안댐★
+
+# n_1={1: 'a'} # dictionary 형태 #★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+# n_1['b']=2  #'b':2 key-value 쌍 추가, list와 다르게 ?
+# n_1[1] = 'c'
+# del n_1[1] #del 해당 데이터를 삭제한다
+# print(n_1)
+
+for i in (range(2, 21)) [: : -1] :
+    print(i)
