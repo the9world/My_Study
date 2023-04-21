@@ -54,3 +54,8 @@
 
 # for i in (range(2, 21)) [: : -1] :
 #     print(i)
+
+cnt = 10  
+while cnt >0: # while cnt >= 1 과 같음  
+    print(cnt)  
+    cnt -= 1 # 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 위와 동일하게 
