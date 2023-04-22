@@ -80,9 +80,9 @@ print("잔 돈", money%물건)""" # 이거 틀림
 age=input("나이:")
 money=int(input("돈:"))
 price = [1000, 50, 120]
-print(money//price[0], money % price[0]) # []인덱싱, [:] 슬라이싱 
-print(money//price[1], money % price[1])
-print(money//price[2], money % price[2])
+print("커피",money//price[0], money % price[0]) # []인덱싱, [:] 슬라이싱 
+print("콜라",money//price[1], money % price[1])
+print("물", money//price[2], money % price[2])
 
 # 나이와 가지고 있는 돈을 입력 받는다.
 # 가지고 있는 돈으로 물건 별로 각 각 몇 개 살 수 있는지 와 잔 돈을 출력한다.
