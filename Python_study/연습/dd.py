@@ -63,5 +63,12 @@
 
 a = float(input("영어 점수를 입력하세요(ex : 4.0, 4.5) : "))
 b = float(input("수학 점수를 입력하세요(ex : 4.0, 4.5) : "))
-i = (a+b)/2
-print(i)
+c = float(input("국어 점수를 입력하세요(ex : 4.0, 4.5) : "))
+d = float(input("과학 점수를 입력하세요(ex : 4.0, 4.5) : "))
+e = float(input("체육 점수를 입력하세요(ex : 4.0, 4.5) : "))
+
+i = int(a+b+c+d+e)/5
+
+print (round(i, 2))
+
+## 모르겟다
