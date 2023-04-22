@@ -55,7 +55,13 @@
 # for i in (range(2, 21)) [: : -1] :
 #     print(i)
 
-cnt = 10  
-while cnt >0: # while cnt >= 1 과 같음  
-    print(cnt)  
-    cnt -= 1 # 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 위와 동일하게 
+# cnt = 10  
+# while cnt >0: # while cnt >= 1 과 같음  
+#     print(cnt)  
+#     cnt -= 1 # 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 위와 동일하게 
+    
+
+a = float(input("영어 점수를 입력하세요(ex : 4.0, 4.5) : "))
+b = float(input("수학 점수를 입력하세요(ex : 4.0, 4.5) : "))
+i = (a+b)/2
+print(i)
