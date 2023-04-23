@@ -100,17 +100,26 @@
 # print("2~9의 숫자 중 하나를 입력하세요")
 
 #  이중for문 : 반복문 안에 반복문 넣기 9단까지
-for i in range(2, 10) : # 2 ~ 9 # 한바퀴 돌고 j 값이 2가 됨  #앞 자리
-    print(i, "단") # i 값이 바뀔 때 단을 출력하기 위해
-    for j in range(1, 10): # 1 ~ 9  # 안 쪽 for문이 먼저  #뒷 자리
-        print(i, "*", j, "=", i*j)
-    print("----------") 
+# for i in range(2, 10) : # 2 ~ 9 # 한바퀴 돌고 j 값이 2가 됨  #앞 자리
+#     print(i, "단") # i 값이 바뀔 때 단을 출력하기 위해
+#     for j in range(1, 10): # 1 ~ 9  # 안 쪽 for문이 먼저  #뒷 자리
+#         print(i, "*", j, "=", i*j)
+#     print("----------") 
       
 # a=2
 # for i in range(1,10):
 #       if i >= 1 :
 #          print (a,"x",i,"=",a*i)
 #          i+=1
-#       if a >= 1 :
-      
+#       if a >= 1 :  
 #             a+=1
+
+a= int(input("몇 단:")) # 원하는 구구단
+
+for i in range(1,10) :
+            if 10 > a > 1 :
+                  print(a,"x",i*1,"=",a*i)
+                  i+=1
+            pass
+else :  
+      print("2~9의 숫자 중 하나를 입력하세요")

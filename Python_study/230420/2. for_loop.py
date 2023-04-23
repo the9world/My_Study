@@ -31,12 +31,12 @@
 #     print(i) # 1부터 20까지 숫자 중에 3씩 + 값
 
 # pass # 아무것도 하지 않고 넘어갈 때(밖으로 나감)
-# if 1 == 1 :
-#     pass
-# print("완료")
-# for i in range(5):
-#     pass
-# print("완료")
+if 1 == 1 :
+    pass
+print("완료")
+for i in range(5):
+    pass
+print("완료")
 
 
 # # for문을 사용하여 2부터 30까지 출력해보세요
