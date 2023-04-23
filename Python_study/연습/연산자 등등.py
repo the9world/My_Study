@@ -57,3 +57,43 @@ else:
     # and   A and B (A, B 모두 True 일때만 True 아니면 False) 
     # or    A or B  (A, B 중 하나라도 True면 True, 둘 다 False면 False)
     # not   not A   (True ↔ False, False ↔ True 바꾼다.)
+    
+# sep(구분자) 값 변경 가능
+# ex. i = [1,2,3,4,5] sep="!!!"
+# print(i) # [1!2!3!4!5]
+
+# end 옵션 # 기본 줄바꿈
+#1. print(1) 2.print(2, end="!!!")
+# 1. print()
+# 1,2. print(3)
+# 1번 출력시 2 줄바꿈 3,
+# 2번 출력시 2!!!3
+
+# 변수 : a,b = 1, 2 # a = b = 1 가능
+# ;(세미콜론) 문장 끝내기 한 줄에 여러 변수 값 부여 가능
+
+# \ 사용시 여러줄도 한줄로 인식 가능
+
+# 예약어(keyword)는 변수 지정 불가
+""" 예약어 33개
+False	def	if	raise
+None	del	import	return
+True	elif	in	try
+and	else	is	while
+as	except	lambda	with
+assert	finally	nonlocal	yield
+break	for	not	
+class	from	or	
+continue	global	pass
+"""
+
+"""
+type(입력) 식발져의 타입 확인
+len(입력) 객체의 길이를 알 수 있음 "인덱스"
+min(입력) 최소 값 출력, max(입력) 최대 값 출력 
+
+
+"""
+
+dic = {'name':'pey', 'phone':'010-9999-1234', 'birth': '1118'}
+print(dic)
