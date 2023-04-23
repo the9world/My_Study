@@ -60,17 +60,22 @@
 #     print(cnt)  
 #     cnt -= 1 # 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 위와 동일하게 
     
+<<<<<<< HEAD
 # list=(1,2,3,4,5,6,7,8,9)
 # for i in range(1, 10) :
 #     i+=1
 #     print(i)
     
+=======
+
+>>>>>>> 74af4a8bd21d5cac8651205665d0de761f8b4b0d
 # a = float(input("영어 점수를 입력하세요(ex : 4.0, 4.5) : "))
 # b = float(input("수학 점수를 입력하세요(ex : 4.0, 4.5) : "))
 # c = float(input("국어 점수를 입력하세요(ex : 4.0, 4.5) : "))
 # d = float(input("과학 점수를 입력하세요(ex : 4.0, 4.5) : "))
 # e = float(input("체육 점수를 입력하세요(ex : 4.0, 4.5) : "))
 
+<<<<<<< HEAD
 # i =(a+b+c+d+e)/5
 # a=int(i)
 
@@ -78,3 +83,17 @@
 #     print(a)
 # else :
 #     print(a+1)
+=======
+# i = int(a+b+c+d+e)/5
+
+# print (round(i, 2))
+
+## 모르겟다
+
+print("""
+      하이
+      '나,'는
+      '니\'가
+      "시/"러
+      """)
+>>>>>>> 74af4a8bd21d5cac8651205665d0de761f8b4b0d
