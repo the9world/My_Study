@@ -1,4 +1,4 @@
-# MD
+# My_Study
 
 ## python sutdy (230417 ~ 230918)
 
