@@ -114,12 +114,12 @@
 #       if a >= 1 :  
 #             a+=1
 
-a= int(input("몇 단:")) # 원하는 구구단
+# a= int(input("몇 단:")) # 원하는 구구단
 
-for i in range(1,10) :
-            if 10 > a > 1 :
-                  print(a,"x",i*1,"=",a*i)
-                  i+=1
-            pass
-else :  
-      print("2~9의 숫자 중 하나를 입력하세요")
+# for i in range(1,10) :
+#             if 10 > a > 1 :
+#                   print(a,"x",i*1,"=",a*i)
+#                   i+=1
+#             pass
+# else :  
+#       print("2~9의 숫자 중 하나를 입력하세요")
