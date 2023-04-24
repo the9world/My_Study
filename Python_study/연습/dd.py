@@ -123,3 +123,19 @@
 #             pass
 # else :  
 #       print("2~9의 숫자 중 하나를 입력하세요")
+
+# # *args 예제
+# def add(*args):
+#     result = 0
+#     for i in args:
+#         result += i
+#     print(result)
+    
+# add(1, 10, 1302)
+# add(1, 2, 3, 19)
+# add(55,45)
+
+# **kyargs 예제
+# hi = {'a':0, 'b':1}
+# hi['c'] = 2
+# print(hi)
