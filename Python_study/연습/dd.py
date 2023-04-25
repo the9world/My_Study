@@ -139,3 +139,22 @@
 # hi = {'a':0, 'b':1}
 # hi['c'] = 2
 # print(hi)
+
+# def hi(): ################# remove 사용법------다시
+#     a = [4,2,4]
+#     a.remove(4)
+#     print(a)
+# hi()
+
+#---------------- 특정요소 전부제거
+# li =[1,3,5,5,7,7,8]
+# while 5 in li:
+#     li.remove(5)
+# print(li) # 1, 3, 7, 7, 8
+
+# li =[1,3,5,5,7,7,8]
+# remove_set ={5,7}
+# li = [i for i in li if i not in remove_set]
+# print(li) #1,3,8
+#-------------------------------
+
