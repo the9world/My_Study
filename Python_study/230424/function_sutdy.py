@@ -297,13 +297,18 @@ hello
 ***
 ****
 """
-# def print_stars(n): # 실습
+# def print_stars(n): # 실습 --------다시--------
     # for i in range(1, n+1) :
     # for i in range(0, n+1) :
     # for i in range(n) :
         # print("*"*i)
         # print("*"*i)   
-        # print("*"(i+1)) ★★ 이거 다시
+        # print("*"(i+1))
+# print_stars(4)
+
+# def print_stars(n): # --------풀이 1번 --------
+#     for i in range(1, n+1):
+#         print("*"*i)
 # print_stars(4)
 
 # i = 0  # 풀이 2번
