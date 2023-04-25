@@ -50,7 +50,7 @@
 # 두 수의 차이를 구하는 함수
 # 함수에 입력된 두 정수의 차이를
 # 계산하고 반환하는 함수를 정의하세요
-"함수 이름 : get_diff"
+# "함수 이름 : get_diff"
 # def get_diff(a,b) :
 #     result = abs(a-b)
 #     # if a> b:   # abs(a-b)와 같은 방법
@@ -108,7 +108,7 @@ n -> 4
  ***
 ****
 """
-def print_stars2(n): # ----- 풀이 ------ ???????????????
-    for i in range(1, n+1): # 1 ~ n
-        print(" " * (n-i) , "*" * i) # i= 별 갯수
-print_stars2(4)
+# def print_stars2(n): # ----- 풀이 ------ ???????????????
+#     for i in range(1, n+1): # 1 ~ n
+#         print(" " * (n-i) , "*" * i) # i= 별 갯수
+# print_stars2(4)

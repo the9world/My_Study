@@ -50,3 +50,4 @@ while True :
         mul(a,b)
     elif operator == "4" :
         div(a,b)
+    break
