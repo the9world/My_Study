@@ -36,4 +36,6 @@ class ZeroCalculator(MyCalculator):
         else:
             print(f"{n1}/{n2}={n1/n2}")
 zero_calculator = ZeroCalculator()
-zero_calculator.div(1,2)
+zero_calculator.div(2,1)
+
+# https://wana.tistory.com/13
