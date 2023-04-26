@@ -29,7 +29,6 @@ class 클래스 이름 :
 # 언더스코어(_) 안 쓰기
 # 단어 구분될 때 대문자
 # class Car : # 여기를 호출해야 아래를 실행
-# # class 내부에 있는 것들이 메소드, 멤버함수
 #     def move(self):
 #         print('move')
 
@@ -50,12 +49,12 @@ class 클래스 이름 :
 # print (li2) # 중복은 안되므로 5 하나만 나옴
 # # Python에서는 모든 것이 다 객체다.
 # # 내장함수 Type()
-# print(type(li))
-# print(type("하이"))
-# print(type(1))
-# print(type(1.1))
-# print(type(li1))
-# print(type(li2))
+# print(type(li)) # 'list'
+# print(type("하이")) # 'str'
+# print(type(1)) #'int'
+# print(type(1.1)) # 'float'
+# print(type(li1)) # 'tuple'
+# print(type(li2)) # 'set'
 
 # str(문자열) 메소드
 # 파이썬에서 스트링 객체는 임뮤터블(수정 불가능)
