@@ -31,11 +31,11 @@ from b_my_calculator import MyCalculator
 # 상속으로 0으로 나누지 못하게 하는 법
 class ZeroCalculator(MyCalculator):
     def div(self,n1,n2) :
-        if n2 == 0 : # n2가 0이면
+        if n2 > 0 : # n2가 0이면
             print("0으로 나눌 수 없습니다.") # error 0으로 나눌 수 없음
         else:
             print(f"{n1}/{n2}={n1/n2}")
 zero_calculator = ZeroCalculator()
-zero_calculator.div(2,1)
+zero_calculator.div()
 
 # https://wana.tistory.com/13
