@@ -77,7 +77,8 @@ class 클래스 이름 :
 
 # s3 = "Hello" # H 를 소문자로 바꾸기
 # # s3[0] = 'h' # 불가
-# s3.lower() # 수정은 아니라서 추후 따로는 적용 안됨 print 해야함
+# s3.lower() # print(s3.lower())
+# # print(s3) # 수정은 아니라서 여기서 적용 안됨 윗 줄에 print 해야함
 # s4 = s3.replace('H','h')
 # print(s4)
 
@@ -137,25 +138,25 @@ class 클래스 이름 :
 # person3.introduce()
 
 # 상속 inheritance
-class Animal: # ---------- __init__ 모르겟다
-    def __init__(self,name):
-        self.name=name # 위 name과 다르지만 값은 같은 객체
-        print(f"{self.name}가(이) 생성되었습니다.")
-    def say(self) :
-        print("")
+# class Animal: # ---------- __init__ 모르겟다
+#     def __init__(self,name):
+#         self.name=name # 위 name과 다르지만 값은 같은 객체
+#         print(f"{self.name}가(이) 생성되었습니다.")
+#     def say(self) :
+#         print("")
 
-class Dog(Animal) : # 상속 받은 class 것을 갖다 쓴다.
-# 메소드 재정의 : method overriding : 메소드 덮어쓰기
-    def say(self):
-        print("멍멍")
-my_dog= Dog("백구")
-my_dog.say()
+# class Dog(Animal) : # 상속 받은 class 것을 갖다 쓴다.
+# # 메소드 재정의 : method overriding : 메소드 덮어쓰기
+#     def say(self):
+#         print("멍멍")
+# my_dog= Dog("백구")
+# my_dog.say()
 
-class Cat(Animal):
-    def say(self):
-        print("야옹")
-my_cat= Cat("나비")
-my_cat.say()
+# class Cat(Animal):
+#     def say(self):
+#         print("야옹")
+# my_cat= Cat("나비")
+# my_cat.say()
 
 # class Student:
 #     def __init__(self, name, age, school, grade, gilt):

@@ -33,9 +33,9 @@ class ZeroCalculator(MyCalculator):
     def div(self,n1,n2) :
         if n2 > 0 : # n2가 0이면
             print("0으로 나눌 수 없습니다.") # error 0으로 나눌 수 없음
-        else:
+        else :
             print(f"{n1}/{n2}={n1/n2}")
 zero_calculator = ZeroCalculator()
-zero_calculator.div()
+zero_calculator.div(2,0)
 
 # https://wana.tistory.com/13

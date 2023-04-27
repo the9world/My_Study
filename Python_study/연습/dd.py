@@ -156,5 +156,37 @@
 # remove_set ={5,7}
 # li = [i for i in li if i not in remove_set]
 # print(li) #1,3,8
-#-------------------------------
+# a = set('apple')
+# print (a) # apple 순서 ㅈ대로 뜸
 
+# set() : 집합 : 중복이 없다. 순서가 없다.
+# add() : 집합에 요소를 추가합니다.
+set1 = set([1, 2, 3]) # {1, 2, 3} 출력
+set1.add(4) # {1, 2, 3, 4} 출력
+# update() : 해당 집합에 다른 집합을 추가합니다.
+# 직접 집합을 작성하여 추가하거나 다른 집합을 추가 할 수 있습니다.
+set1 = set([1, 2, 3]) 
+set1.update([4, 5, 6]) # {1, 2, 3, 4, 5, 6} 출력
+set2 = {7, 8, 9}
+set1.update(set2) # {1, 2, 3, 4, 5, 6, 7, 8, 9} 출력
+# remove() : 집합에 해당 요소를 제거합니다.
+set1 = set([1, 2, 3])
+set1.remove(3) # {1, 2} 출력
+# clear() : 집합 내에 모든 요소를 제거합니다.
+set1 = set([1, 2, 3])
+set1.clear() # set() 출력(빈 집합)
+#union() : 집합들의 합집합을 구합니다. 또한 | 연산자를 사용할 수 있습니다.
+set1 = set([1, 2, 3])
+set2 = set([3, 4, 5])
+set3 = set1.union(set2) # {1, 2, 3, 4, 5} 출력, set1 | set2 과 같음
+# intersection() : 집합들의 교집합을 구합니다.
+# 또한 & 연산자를 사용할 수 있습니다.
+set1 = set([1, 2, 3])
+set2 = set([2, 3, 4])
+set3 = set([1, 2, 5])
+set4 = set1.intersection(set2).intersection(set3) # {2} 출력, set1 & set2 & set3 과 같음
+# difference() : 집합들의 차집합을 구합니다.
+# 또한 - 연산자를 사용할 수 있습니다.
+set1 = set([1, 2, 3])
+set2 = set([2, 3, 4])
+set3 = set1.difference(set2) # {1} 출력, set1 - set2와 같음

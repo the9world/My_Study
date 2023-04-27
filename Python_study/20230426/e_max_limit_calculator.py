@@ -10,4 +10,58 @@
 # 나오는 값을 입력하도록 안내 메시지를 출력한다.
 
 from b_my_calculator import MyCalculator
-# class MaxLimitCalcultorr(MyCalculator):
+class MaxLimitCalcultorr(MyCalculator):
+    def add(slef, n1 ,n2):
+        if n1 > 100:
+            print("100보다 작은 수를 입력하세요.")
+        elif n2> 100:
+            print("100보다 작은 수를 입력하세요.")
+        else:
+            result = n1 + n2
+            if result > 100 :
+                print ("계산 결과가 100보다 작아야 합니다.")
+            else:
+                print(f"{n1}+{n2}={n1+n2}") #else 추가
+    def sub(slef, n1 ,n2):
+        if n1 > 100:
+            print("100보다 작은 수를 입력하세요.")
+        elif n2> 100:
+            print("100보다 작은 수를 입력하세요.")
+        else:
+            result = n1 - n2
+            if result > 100 :
+                print ("계산 결과가 100보다 작아야 합니다.")
+            else:
+                print(f"{n1}-{n2}={n1-n2}") #else 추가
+    def mul(slef, n1 ,n2):
+        if n1 > 100:
+            print("100보다 작은 수를 입력하세요.")
+        elif n2> 100:
+            print("100보다 작은 수를 입력하세요.")
+        else:
+            result = n1 * n2
+            if result > 100 :
+                print ("계산 결과가 100보다 작아야 합니다.")
+            else:
+                print(f"{n1}*{n2}={n1*n2}") #else 추가
+    def div(slef, n1 ,n2):
+        if n1 > 100:
+            print("100보다 작은 수를 입력하세요.")
+        elif n2> 100:
+            print("100보다 작은 수를 입력하세요.")
+        # elif n2 == 0 :
+        #     print("0 으로 나눌 수 없습니다.")
+        else :
+            try:
+                result =n1/n2
+            except ZeroDivisionError :
+                print("0으로 나누지 마세요.")
+            else :
+                if result > 100 :
+                    print ("계산 결과가 100보다 작아야 합니다.")
+                else:
+                    print(f"{n1}/{n2}={n1/n2}") #else 추가
+                
+my_max_limit_calculator = MaxLimitCalcultorr() # 이 설계도 대로 만들어라.
+# 초기화 : 초기상태로 만들어 놓음, 객체 시작, 새로 만든다.
+print(my_max_limit_calculator)
