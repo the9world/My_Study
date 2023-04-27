@@ -207,14 +207,11 @@ import random
 # isdigit() 숫자로만 이루어진 문자열인지 확인한다.
 
 # os (OS 자원을 제어)
-# import os
-# print(os.environ)
-# 시스템의 환경변수 값을 리턴한다
+import os
+# print(os.environ) # 시스템의 환경변수 값을 리턴한다
 
-# os.getcwd()
-# get current working directory
-# 현재 내 작업 위치를 리턴한다.
-# print(os.getcwd())
+# os.getcwd() # get current working directory
+# print(os.getcwd()) # 현재 내가 작업 중인 폴더 위치를 리턴한다.
 
 # os.mkdir(디렉터리)
 # 디렉토리(폴더)를 만든다
