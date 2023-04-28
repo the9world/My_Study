@@ -190,3 +190,7 @@ set4 = set1.intersection(set2).intersection(set3) # {2} 출력, set1 & set2 & se
 set1 = set([1, 2, 3])
 set2 = set([2, 3, 4])
 set3 = set1.difference(set2) # {1} 출력, set1 - set2와 같음
+
+
+# lambda1 = (lambda x,y: x + y)(10, 20)
+# print(lambda1)

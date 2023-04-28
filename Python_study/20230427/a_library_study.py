@@ -207,7 +207,7 @@ import random
 # isdigit() 숫자로만 이루어진 문자열인지 확인한다.
 
 # os (OS 자원을 제어)
-import os
+# import os
 # print(os.environ) # 시스템의 환경변수 값을 리턴한다
 
 # os.getcwd() # get current working directory
