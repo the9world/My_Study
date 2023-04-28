@@ -47,13 +47,13 @@
 # <html> </html>
 # html 파싱
 
-import requests
-url = "https://www.naver.com/"
-response = requests.get(url) # get 요청 방식, 리퀘스트 보낸 후 응답 받겟다는 뜻
-status = response.status_code # 상태 코드
-html = response.text
-print (status) # 200 (상태 코드)
-print (html) # 구성 코드
+# import requests
+# url = "https://www.naver.com/"
+# response = requests.get(url) # get 요청 방식, 리퀘스트 보낸 후 응답 받겟다는 뜻
+# status = response.status_code # 상태 코드
+# html = response.text
+# print (status) # 200 (상태 코드)
+# print (html) # 구성 코드
 
 # http 상태 코드
 # 200 : OK / 요청 성공
@@ -86,13 +86,13 @@ print (html) # 구성 코드
 # BeautifulSoup  ((find 명령어 찾아보기))
 # html 파싱(parsing)
 # html을 객체 구조화해서 사용
-# from bs4 import BeautifulSoup # html을 객체로 사용할 수 있게 해줌
 # # html 태그 : <태그이름 속성=속성값>내용</태그이름> / <html> </html>
 # # <html><head></head><body></body></html> : html.head : html.body
+# from bs4 import BeautifulSoup # html을 객체로 사용할 수 있게 해줌
 # html = "<html><body>Hello</body></html>"
 # soup = BeautifulSoup(html, "html.parser") # 값을 꼭 넣어야함
-# print(soup.body.text) # 파싱 된 상태임
-# print(soup.html.text) 
+# print(soup.body.text) # 파싱 된 상태임 #Hello
+# print(soup.html.text)  # html 사이에 있는 것들 뜸
 # print(type(soup.body.text)) #class bs4.BeautifulSoup 정의 한 이름
 
 # import requests
@@ -124,7 +124,8 @@ print (html) # 구성 코드
 
 # enumerate(번호를 붙인다) /(이터러블 사용) 자동적으로 인덱스하고 포문 돌려서 
 # li1 = ["김연아", "류현진", "손흥민"]
-# for idx, name in enumerate(li1):
+# for name in enumerate(li1):
+# # for name 사이에 idx 하면 index 따로 나열 가능
 #     print(name) # (0, '김연아) (1, '류현진') (2. '손흥민')
 
 # 네이버 IT/과학 뉴스 크롤링
@@ -156,5 +157,5 @@ print (html) # 구성 코드
 #     article = article_soup.find('div', attrs={"id":"dic_area"})
 #     print(article.text)
 
-# for idx, i in enumerate(headline[1:]):
+# for idx, i in enumerate(headline[1:]): #뭔가 error
 #     file_name = f"headline_{idx}.txt"
