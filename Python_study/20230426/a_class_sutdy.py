@@ -92,7 +92,7 @@ class 클래스 이름 :
 #     def move(self):
 #         print(f"{self.name}님이 도망갔습니다.")
 #     def eat(self, food):
-#         # self.sleep() # 이거 왜 넣는거지?
+#         self.sleep() # 얘만 따로 또 부를 때?
 #         print(f"{self.name}님이 {food}를 먹었습니다.")
 #     def sleep(self):
 #         print(f"{self.name}님께서 운명하셨습니다.")
@@ -121,8 +121,8 @@ class 클래스 이름 :
 # print("after")
 # person2.say_name()
 
-# #person 클래스에 introduce 메소드를 추가
-# # 이름, 나이, 성별을 print 하는 메소드
+# person 클래스에 introduce 메소드를 추가
+# 이름, 나이, 성별을 print 하는 메소드
 # class person1:
 #     def __init__(self, name, age, job):
 #         self.name= name
@@ -143,7 +143,7 @@ class 클래스 이름 :
 #         self.name=name # 위 name과 다르지만 값은 같은 객체
 #         print(f"{self.name}가(이) 생성되었습니다.")
 #     def say(self) :
-#         print("")
+#         print("하이")
 
 # class Dog(Animal) : # 상속 받은 class 것을 갖다 쓴다.
 # # 메소드 재정의 : method overriding : 메소드 덮어쓰기
