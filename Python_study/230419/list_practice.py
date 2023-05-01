@@ -5,13 +5,13 @@
 학생4: 영어:  50, 국어: 100
 학생5: 영어:  30, 국어:  20
 """
-students = ["학생1, 학생2, 학생3, 학생4, 학생5"]
+students = ["학생1", "학생2", "학생3", "학생4", "학생5"]
 engligh_scores = [100, 90, 70, 50, 30]
 korean_scores = [100, 80, 50, 100, 20]
 #인덱스(Index) 접근
-print(students[0]) # 이거 모르겠음
-print(engligh_scores[1])
-print(korean_scores[1])
+print(students[0])
+print(engligh_scores[0])
+print(korean_scores[0])
 
 student_info = [ #영어, 국어
     ["학생1", 100, 100],
@@ -20,4 +20,4 @@ student_info = [ #영어, 국어
     ["학생4", 50, 100],
     ["학생5", 30, 20]
     ]
-print(student_info[1])
+print(student_info[0:5])

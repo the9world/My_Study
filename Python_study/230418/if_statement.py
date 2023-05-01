@@ -26,7 +26,7 @@ else:
 # # True(참), False(거짓)
 
 # number1 = 5 #숫자형변수 / 정수
-# number2 = 5
+# number2 = 6
 # #비교 연산자 ><, == 등 (조건식)
 # if number1 > number2: #False는 출력 되지 않고 else로 내림
 #     print(number1 > number2)
@@ -76,17 +76,20 @@ else:
 # print (not True)    #False
 # print (not False)   #True
 # 응용
-age = 17
-money = 10000
-if age >= 20 and money >= 10000:
-    print("성인이고 부자입니다")
-if age >= 20 or money >= 10000:
-    print("성인 또는 부자입니다")
+# age = 17
+# money = 10000
+# if age >= 20 and money >= 10000:
+#     print("성인이고 부자입니다")
+# if age >= 20 or money >= 10000:
+#     print("성인 또는 부자입니다")
 
-if "안녕":
-    print("안녕하세요")
-    # 문자열에 값이 있으면 True 없으면 False
-if 0:
-    print(0)
+# a = "하이"
+# b = "빠이" 
+# if a in "빠이":
+    # print(a)
+    # 문자열에 값이 있으면 True 없으면 False 
+
+# if 0:
+    # print(0)
     # 숫자 0은 False, 나머지는 True
 

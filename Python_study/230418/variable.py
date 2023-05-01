@@ -5,7 +5,6 @@
 
 #name = "황덕우" #변수를 만들 땐 값을 할당 해야 한다.
 # print(name)
-# name = "황덕우"
 # first_namme = "덕우"
 # last_name = "황"
 # name = last_name + first_namme
@@ -24,6 +23,6 @@
 # name = "re"
 # print(name)
 
-바 = "천"
-보 = "재"
-print (바+보)
+# 바 = "천"
+# 보 = "재"
+# print (바+보)

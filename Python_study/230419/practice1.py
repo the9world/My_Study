@@ -21,7 +21,7 @@ F : 60 이하
         # 이어서 두 번째 수업
 """scores = []
 scores = list()
-scores.append(int(input("영어 점수:"))) # input이 안되서?? 문자형 데이터라 int 정수로 바꿔준다
+scores.append(int(input("영어 점수:"))) # 문자형 데이터라 숫자 입력을 위해 int 정수 변환
 scores.append(int(input("국어 점수:")))
 scores.append(int(input("수학 점수:")))"""
 

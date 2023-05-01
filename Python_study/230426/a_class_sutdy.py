@@ -102,7 +102,7 @@ class 클래스 이름 :
 # person1.eat("밥") # 허순자님이 밥을 먹었습니다.
 # person1.sleep() # 허순자님께서 운명하셨습니다.
 
-# initializer: 초기자: 이니셜라이저, 
+# initializer: 초기자: 이니셜라이저, 초기화 메서드
 # initialize: 초기화: 이니셜라이즈, 만든다, 생성, 시작한다와 유사
 # init은 class 에서 멤버 변수들 초기 값을 입력 받을 때 주로 사용
 # class person:

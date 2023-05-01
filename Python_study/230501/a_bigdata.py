@@ -1,7 +1,7 @@
-가변공간 파이썬
-비교연산자
-id 함수
-colab 런타임 연결
+# 가변공간 파이썬
+# 비교연산자
+# id 함수
+# colab 런타임 연결
 
 '''3 & 4 # & : 논리연산자가 X -> 비트연산자'''
 # 0011 & 011 -> 0000
@@ -10,36 +10,37 @@ colab 런타임 연결
 
 # 같은 복사 , 깊은 복사
 # a= [5,4,3,2,1]
-# b=a[:]
+# b=a[:] 
 # print(id(a), id(b))
-# b 
-# a.sort()
-# a
-# b
+# b # 54321
+# a.sort() 
+# a # 12345
+# b # 54321
 
-# a = [5,4,3,2,1]
-# b = a.copy()
+# a = [5,4,3,2,1] 
+# b = a.copy() # 원본에 영향을 줌
 # print(id(a), id(b))
 # a. sort()
-# a
-# b
-# a
+# a # 12345
+# b # 54321
+# a # 12345
 
 # import copy
 # a = [5,4,3,2,1]
-# b=copy.deepcopy(a)
+# b=copy.deepcopy(a) # 원본에 영향을 주지 않음 (아예 새로 생성)
 # print(id(a), id(b))
 # a.sort()
 # a
 # b
 # a
 
-# 3 & 4 # & : 논리연산자가 X -> 비트연산자
-# #0011 & 011 -> 0000
-# 3 and 4 : 4
-# 3 or 4 : 3
-
 # is 연산자 
+# is 는 int로 따지면 -5~256 까지의 작은 숫자는 파이썬 내부적으로 캐시돼있어서
+# 다른 변수에 같은 값을 넣어도 같은 메모리 주소를 참조합니다.
+# 하지만 257이상의 숫자는 다른변수에 정의하면 값이 같아도 다른 주소에 할당됩니다.
+# String도 ‘teemo’같이 짧은건 같은 주소에 할당되지만,
+# ‘teemo is the cutest champion in league of legends’와 같이 긴건 다른 주소에 할당됩니다.
+
 
 # b 로 a 를 나눈 나머지가 3 초과면 실패, 3이면 무승부, 3 미만이면 성공이 출력되도록 만들어보자
 # a = 34
@@ -308,38 +309,28 @@ s or S 를 입력하면 합계 출력
 # print(c)
 
 '''사람 별 평균을 구하라.'''
-kor_score = [39,69,29,100,80]
-math_score = [32,59,85,30,90]
-eng_score = [49,70,48,60,100]
+# kor_score = [39,69,29,100,80]
+# math_score = [32,59,85,30,90]
+# eng_score = [49,70,48,60,100]
 
-mideterm_score = [kor_score, math_score,eng_score]
+# mideterm_score = [kor_score, math_score,eng_score]
 
-student_score = [0,0,0,0,0]
-i=0
-for subject in mideterm_score: #kor,math,eng 과목 선택
-    for score in subject: #과목 선택후
-        student_score[i]+=score #각 학생마다 개별로 교과 점수를 저장
-        # print(subject,score,'i:',i,student_score) #kor->math->eng 
-        i+=1 #학생 index 구분
-    i=0 # 과목이 바뀔 때 학생 인덱스
-else:
-    a,b,c,d,e = student_score  #학생별 점수를 unpacking
-    student_average = [a/3,b/3,c/3,d/3,e/3]
-    print(student_average)
-
-
-'''(1) word = ["school", "game", "piano", "science", "hotel", "mountain"]
-중 글자수가 6글자 이상인 문자를 모아 새로운 리스트를 생성하세요'''
-# word = ["school", "game", "piano", "science", "hotel", "mountain"]
-
-
-# a = list()
-# for i in range(len(word)):
-#     count.len(word)
+# student_score = [0,0,0,0,0]
+# i=0
+# for subject in mideterm_score: #kor,math,eng 과목 선택
+#     for score in subject: #과목 선택후
+#         student_score[i]+=score #각 학생마다 개별로 교과 점수를 저장
+#         # print(subject,score,'i:',i,student_score) #kor->math->eng 
+#         i+=1 #학생 index 구분
+#     i=0 # 과목이 바뀔 때 학생 인덱스
+# else:
+#     a,b,c,d,e = student_score  #학생별 점수를 unpacking
+#     student_average = [a/3,b/3,c/3,d/3,e/3]
+#     print(student_average)
 
 
 # 포맷팅 플루팅 에러
 # 16까진 가능 17자리부터 에러
 # print('나눗셈. {:.17}'.format(1/3))
 
-https://github.com/Youngpyoryu/Lecture_Note/tree/main/%ED%8C%8C%EC%9D%B4%EC%8D%AC
+# https://github.com/Youngpyoryu/Lecture_Note/tree/main/%ED%8C%8C%EC%9D%B4%EC%8D%AC
