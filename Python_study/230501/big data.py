@@ -336,3 +336,5 @@ else:
 # 포맷팅 플루팅 에러
 # 16까진 가능 17자리부터 에러
 # print('나눗셈. {:.17}'.format(1/3))
+
+https://github.com/Youngpyoryu/Lecture_Note/tree/main/%ED%8C%8C%EC%9D%B4%EC%8D%AC
