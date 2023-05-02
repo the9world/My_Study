@@ -9,13 +9,14 @@
 
 # result = "%d + %d = %d " % (3, 2, 5)
 # print(result)
-# a, b = 1, 2
-# result= "%d + %d = %d" %(a, b, a+b)
-# result1 = "이름 : {} ".format('황덕우') # 직접 대입
-# age=100 ; result2 = "\nage: {}".format(age) # 변수 대입
-# result3 = "\n출신지 : {ad} \n성별 : {gen}".format(ad="한국", gen="트랜스")
-# result= result1+result2+result3
-# print(result)
+a, b = 1, 2
+result= "%d + %d = %d" %(a, b, a+b)
+print(result)
+result1 = "이름 : {} ".format('황덕우') # 직접 대입
+age=100 ; result2 = "\nage: {}".format(age) # 변수 대입
+result3 = "\n출신지 : {ad} \n성별 : {gen}".format(ad="한국", gen="트랜스")
+result= result1+result2+result3
+print(result)
 
 # string1 = "Hello"
 # int1 = 3
@@ -25,13 +26,13 @@
 # f - string
 # Python 3.6 이후 버전부터 지원
 # 변수 자체를 문자열로 바꿔 주는 것
-# string1 = "Hello"
-# int1 = 3
-# float1 = 1.2345
-# result= f"string {string1} {int1} {float1}"
-# print(result) # Hello 3 1.2345
-# result= f"{string1,int1,float1}" # ('Hello', 3, 1.2345)
-# print(result)
+string1 = "Hello"
+int1 = 3
+float1 = 1.2345
+result= f"string {string1} {int1} {float1}"
+print(result) # Hello 3 1.2345
+result= f"{string1,int1,float1}" # ('Hello', 3, 1.2345)
+print(result)
 
 
 # # 포맷팅 변환 해보셈

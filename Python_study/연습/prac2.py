@@ -72,3 +72,19 @@
 #     else:
 #         return abs(a-b)
 #     return answer
+
+a = [i for i in range(10)]        # 0부터 9까지 숫자를 생성하여 리스트 생성
+print(a)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(a)
+
+
+def hi():
+    word1 = 'Hello'
+    word2 = 'World'
+    a= ()
+    for i in word1:
+        a = i + j
+        for j in word2:
+            return a
+print(hi())
