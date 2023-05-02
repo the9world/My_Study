@@ -95,7 +95,6 @@
 #     print('어느 것으로도 나누어지지 않습니다.')
 
 # set() : 집합 : 중복이 없다. 순서가 없다.
-
 # add() : 집합에 요소를 추가합니다.
 # set1 = set([1, 2, 3]) # {1, 2, 3} 출력
 # set1.add(4) # {1, 2, 3, 4} 출력
@@ -206,7 +205,7 @@
 #     x[i] = x[i]*10
 # print(x)
 # 2번
-# y = {"math":70, "science":80, "english": 20}
+y = {"math":70, "science":80, "english": 20}
 # for key in y:
 #     val = y[key]
 #     y[key] = y[key]+10

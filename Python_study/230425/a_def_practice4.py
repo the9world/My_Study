@@ -5,13 +5,13 @@
 """
 함수 이름 : sume_3_5
 """
-# def sume_3_5(n): # -------풀이 1번-------
-#     result=0
-#     for i in range(n):
-#         if i % 3 == 0 or i % 5 ==0: 
-#             result+=i # ★★★★★★ 뭐지 이건 이해안댐
-#     return result
-# print(sume_3_5(4))
+def sume_3_5(n): # -------풀이 1번-------
+    result=0
+    for i in range(n):
+        if i % 3 == 0 or i % 5 ==0: 
+            result+=i # ★★★★★★ 뭐지 이건 이해안댐
+    return result
+print(sume_3_5(4))
 
 
 # def sume_3_5(n): # -------풀이 2번-------
