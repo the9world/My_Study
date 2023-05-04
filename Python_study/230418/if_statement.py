@@ -27,6 +27,7 @@ else:
 
 # number1 = 5 #숫자형변수 / 정수
 # number2 = 6
+
 # #비교 연산자 ><, == 등 (조건식)
 # if number1 > number2: #False는 출력 되지 않고 else로 내림
 #     print(number1 > number2)

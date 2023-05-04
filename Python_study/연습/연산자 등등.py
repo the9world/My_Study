@@ -95,5 +95,11 @@ min(입력) 최소 값 출력, max(입력) 최대 값 출력
 
 """
 
-dic = {'name':'pey', 'phone':'010-9999-1234', 'birth': '1118'}
-print(dic)
+str1='Life is C between B and D'
+print(str1.find('a')) # 해당 문자의 인덱스를 출력, 없으면 -1 출력
+print(str1.index('a')) # 위와 같음, 없으면 error
+print(str1.replace('book', 'zero')) # a zero c dog e far g high
+print(str1.split(' ')) # 따옴표 사이에 기준이 되는 문자 넣기, 생략시 기준은 띄어쓰기
+print(' '.join(str1)) # '' 따옴표 사이에 삽입할 문자 넣기
+str2= str1.split()
+print(' '.join(str2)) # split한 결과에 join을 사용하면 다시 문자열로 만들 수 있음
