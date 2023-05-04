@@ -210,24 +210,8 @@ y = {"math":70, "science":80, "english": 20}
 #     val = y[key]
 #     y[key] = y[key]+10
 #     print('%s : %d' %(key,val+10))
-# # 2번 심화
-# y = {"math":70, "science":80, "english": 20}
-# for key in y:
-#     val = y[key]
-#     y[key] = y[key]+10
-#     print('%s : %d' %(key,val+10))
-# 3번
 
-# import random # ------- 다시 
-# true_value = random.randint(1,100)
-# answer= int(input("숫자:")) # 임의의 값 할당
-# while True :
-#     if answer != true_value :
-#         answer=int(input("숫자:"))
-#         print("입력한 숫자가 큽니다")
-#         continue
-#     elif answer < true_value :
-#         print("입력한 숫자가 작습니다")
+# 3번
 
 # import random
 # true_value = random.randint(1,100)
@@ -288,14 +272,6 @@ y = {"math":70, "science":80, "english": 20}
 """사용자로부터 숫자를 계속 입력받다가
 s or S 를 입력하면 합계 출력
 """
-# a = int(input("숫자")) ###### -----retry
-# while True :
-#     if not input("s") or input("S"):
-#         a += int(input())
-#     else:
-#         break
-# print(a)
-
 # c = 0
 # d = 1
 # while (d==1):
