@@ -14,15 +14,15 @@ def sume_3_5(n): # -------풀이 1번-------
 print(sume_3_5(4))
 
 
-# def sume_3_5(n): # -------풀이 2번-------
-#     result=0
-#     for i in range(n):
-#         if i % 3 == 0:
-#             result += i
-#         elif i % 5 ==0: 
-#             result += i
-#     return result
-# print(sume_3_5(15))
+def sume_3_5(n): # -------풀이 2번-------
+    result=0
+    for i in range(n):
+        if i % 3 == 0:
+            result += i
+        elif i % 5 ==0: 
+            result += i
+    return result
+print(sume_3_5(15))
 
 # 정육면체 주사위 2개가 있다.
 # 2개의 주사위를 던졌을 때 나올 수 있는

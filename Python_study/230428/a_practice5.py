@@ -16,24 +16,24 @@
 # print(a)
 
 
-# def is_palindrome(input_string) : # 2 번
-#     input_string = input_string.replace(" ","")
-#     return input_string == input_string [::-1]
-# a= is_palindrome("다시 합창합시다")
-# print(a)
+def is_palindrome(input_string) : # 2 번
+    input_string = input_string.replace(" ","")
+    return input_string == input_string [::-1]
+a= is_palindrome("다시 합창합시다")
+print(a)
 
-# li1 = [1,2,3,4,5]
-# li1.reverse() # 리턴이 없는 함수
-# print(li1)
-# reversed([li1]) # 원본은 그대로 리턴
-# print(li1)
+li1 = [1,2,3,4,5]
+li1.reverse() # 리턴이 없는 함수
+print(li1)
+reversed([li1]) # 원본은 그대로 리턴
+print(li1)
 
-# string1 = "안녕하세요"
-# string2 = reversed(string1)
-# for i in string2 :
-#     print(i)
-# string3= "".join(string2)
-# print(string3)
+string1 = "안녕하세요"
+string2 = reversed(string1)
+for i in string2 :
+    print(i)
+string3= "".join(string2)
+print(string3)
 
 # 데이터 수집 단계
 """데이터 수집 -> 데이터 분석/처리->
