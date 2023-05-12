@@ -1,4 +1,4 @@
-requests
+
 
 pip freeze > pipname.txt (파일명)
 
@@ -7,3 +7,9 @@ pip install -r pipname.txt
 code --list-extensions > extensions.list (파일명)
 
 cat extensions.list |% { code --install-extension $_}
+
+requests
+
+pip freeze > requirements.txt
+
+pip install -r requirements.txt
