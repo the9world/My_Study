@@ -68,7 +68,7 @@ class 클래스 이름 :
 # print(s.lstrip()) # "Hello  "
 # print(s.rstrip()) # "  Hello"
 
-# # split(): 구분자로 분할하여 리스트로 변환
+# # split(): 구분자(띄어쓰기)로 분할하여 리스트로 변환
 # # replace(): 문자열의 특정 부분을 대체
 # s2 = "Hello,World,Python"
 # print(s2.split(',')) # ['Hello', 'World', 'Python']
