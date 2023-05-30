@@ -33,5 +33,6 @@ https://sosoeasy.tistory.com/385
 
 https://snepbnt.tistory.com/32
 
-mae mse 검색
+mae(mean asolute:평균 절대 오차)  
+mse(mean squared:평균 제곱 오차)  
 깃허브 소스코드에 관한 검색
