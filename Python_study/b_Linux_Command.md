@@ -16,3 +16,16 @@
     rm -r  폴더명(파일이 들어있는 디렉토리를 삭제할 때는 rm -r 명령을 사용)  
     rm *.txt (확장자 txt 모든 파일 삭제. 각 파일에 대해 삭제여부를 물음.)  
     rm* (현재 폴더에 있는 모든 파일을 삭제. 각 파일에 대해 삭제여부를 묻고, 폴더가 있다면 삭제할 수 없다는 메시지 출력)  
+    $ Sudo yum install git : git 설치 (yum은 Linux 설치 명령어)  
+    $ sudo yum update : yum 업데이트  
+    $ git clone "주소"  
+    $ $ps 내 터미널에서 돌아가는 작업 보기, $ ps -ef 돌아가는 작업 전체보기  
+    $ netstat -tnlp (현재 돌아가는 포트(서버)확인)  
+    $ ps -ef | grep streamlit : |은 연쇄작용, grep은 찾아달라.  
+        ec2-user "PID:숫자" : 해당 포트(서버)를 kill(끄기)하려면 PID 필요  
+    $ nohup streamlit run app.py --server.port 포트번호 & (백그라운드 계속 실행)  
+    $ ec2-user , $ conda activeate app_dash  가상환경 진입
+### 포트(서버) 끄기  
+    $ ps -ef | grep streamlit or netstat -tnlp 로 PID 확인 후 kill PID  
+    지정해도 실행 안되는 포트번호가 있으니 주의  
+
