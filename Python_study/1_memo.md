@@ -54,3 +54,5 @@ https://snepbnt.tistory.com/32
 mae(mean asolute:평균 절대 오차)  
 mse(mean squared:평균 제곱 오차)  
 깃허브 소스코드에 관한 검색
+
+그레디언트 디센트 경사하강법 : 기울기 , 절편 필요

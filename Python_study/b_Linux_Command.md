@@ -29,3 +29,5 @@
     $ ps -ef | grep streamlit or netstat -tnlp 로 PID 확인 후 kill PID  
     지정해도 실행 안되는 포트번호가 있으니 주의  
 
+    꼭 가상환경 생성해서 하기
+    conda create -n <환경명> python=<버전(ex:3.5이나 3.7 등)>
