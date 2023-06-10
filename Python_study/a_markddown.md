@@ -27,8 +27,7 @@ shields[io] : https://shields.io/
 icon : https://simpleicons.org/?q=ganache  
 Easyme : https://www.easy-me.com/d  
 <br><br>
-https://github.com/kyechan99/capsule-render  
-![header](https://capsule-render.vercel.app/api?type=waving&height=160&text=WHO%20%21%22Suicides&fontAlign=50&stroke=99FF95&strokeWidth=2&color=FF8030&textColor=FF0000&fontSize=66)
+![header](https://capsule-render.vercel.app/api?section=footer&type=slice&reversal=true&color=gradient&height=170&text=TEXT%20text%21%20TEST&animation=twinkling&fontSize=53&fontColor=fed&fontAlign=50&fontAlignY=50&textBg=true&&rotate=-3&desc=THE9WORLD&descSize=20&descAlign=50&descAlignY=15&stroke=9F1FF0&strokeWidth=1&)
  
 - type: 이미지의 모양을 지정하는 파라미터입니다.  
 ![header](https://capsule-render.vercel.app/api?color=auto)
