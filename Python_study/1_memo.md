@@ -29,20 +29,6 @@ wcss = 중심에서 그룹란의 거리가 작은 것
 표준화 = StandardScaler  
 정규화 = MinMaxScaler  
 
-
-## K-means :
-1. CSV 파일(데이터)을 넣어주면
-2. 데이터를 그루핑(Clustering) 해주는 앱
-3. Jupyter NoteBook을 사용하여 분석
-4. K-means 예제를 풀어봅시다.
-
-## 05.30 이후 강의 예정
-- 데이터 수집 사이트 보시고  
-- 기획해서 분석하고(인공지능이 불가한 것은 분석까지만)  
-- 인공지능 개발이 가능하다면, 인공지능 만들고  
-- 앱 대시보드 화면 / 화면 기획 / 개발  
-- 06월 08일 ~ 06월 09일 발표 예정 (진행 상황에 따라 앞당겨 진행할 수 있음)
-
 https://everyday-deeplearning.tistory.com/entry/%ED%98%84%EC%97%85%EC%97%90%EC%84%9C-%EB%A7%8E%EC%9D%B4-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-Python-%EB%AA%A8%EB%93%88-Pandas
 
 https://bioinformaticsandme.tistory.com/70
