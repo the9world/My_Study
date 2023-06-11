@@ -1,73 +1,56 @@
 # DATABASE
 ## RDBMS
-- Oracle
-- DB2  
-- MySQL(MariaDB, 오픈소스, 가장 대중적)
-1. 중요한 정보를 저장
-2. 일처리 여러 단계 중에 잘못되면  
-다시 초기상태로 돌아감(원상복구)
-3. 데이터 저장공간이 정해져 있음
+- RDBMS의 종류  
+✔Oracle,  ✔DB2,  
+✔MySQL(MariaDB, OpenSource, 가장 대중적)  
+  1.  중요한 정보를 저장
+  2.  일처리 여러단계 중에 잘못되면 다시 초기상태로 돌아감(원상복구)
+  3.  데이터 저장공간이 정해져 있음.
 
 ## NoSQL
-- SNS 서비스 발달로 데이터양이 무제한인 것을 처리  
-- 저장공간이 무한이고 분산처리
-- 데이터 원상복구도 가능하지만,  
-폭발적으로 늘어나는 데이터를 분산처리하는데 효율적  
-
+  1. SNS 발달로 데이터양이 무제한인 것을 처리.
+  2. 저장공간이 무한이고, 분산처리
+  3. 데이터 원상복구도 가능하지만, 폭발적으로 늘어나는  
+데이터를 분산처리하는데 효율적임  
 
 ### RDS 순서
-1. AWS - 서비스 - 데이터베이스 - RDS - 서울 리젼 지정 - 
-데이터베이스 생성: 
-엔진옵션: 엔진유형
-Aurora DB: 유료 회사에서 많이 사용
-MySQL 프리티어 선택
-
-엔진버전 : 자동 최신??
-템플릿 : "프리티어"
-가용성 및 내구성 : 배포옵션 : 프리티어는 불가
-설정
-DB 인스턴스 식별자 : 대문자를 입력해도 되지만
-소문자로 저장됨
-자격증명설정: 마스터사용자 이름: admin 두셈(토큰같은거 나중에 꼭 필요)
-마스터 암호 : 8자 이상 ASCII문자
-
-인스턴스구성
-  컴터사양임 냅두셈 어차피 프리티어 못바꿈
-
-스토리지
- 스토리지 유형: ssd, 할당스토리지:20gb
-
-연결
- 컴퓨팅리소스 ec2연결하냐 안하냐, 일단 no
-
-퍼블릭억세스
-예: 이게 오픈임 이거 ㄱㄱ , 아니오:시크릿
-
-추가구성
-포트:3306:디폴트 우린 이거 ㄱ(회사에선 다 바꿈)
-
-대충 생성
-
-- MySQL WorkBench 설정
-    1. Dwonload MySQL WorkBench
-        - 자신의 OS 환경으로 Download
-        - Login 없이 "No thanks, just start my download."  
-    2. my sql bench 설치 64비트
-설치후  
-       - MySQL Connections "+" 클릭  
-       - Connection Name: rds에서 만든이름: mydb  
-       - Host네임: RDS-db인스턴스-db식별자이름클릭-  
-        연결&보안- 엔드포인트복사  
-       - Username : RDS에서 만든 토큰같은거 admin
-       - Password : 어드민 만들때 만든 마스터암호
-       - Test Click Suecces: OK 눌러서 connection 생성  
-       - Test Erorr: RDS- 연결&보안- vpc 보안그룹-  
-        인바운드 규칙- 인바운드규칙편집- 규칙추가-  
-        유형mysql/aurora(사용자지정TCP해도 됨) 	 
-        소스:애니웨어-규칙저장
-
-
-워크벤치 설치 에러:https://musclebear.tistory.com/115  
+✔AWS - ✔서비스 - ✔데이터베이스 - ✔RDS - ✔서울리젼 -  
+✔데이터베이스 생성 :  
+```
+1. 엔진옵션 : 엔진유형  
+2. Aurora DB : 유료, 회사에서 많이 사용  
+3. MySQL 프리티어 선택.  
+4. 엔진버전 : 기본값은 자동으로 최신버전  
+5. 템플릿 : "프리티어"  
+6. 가용성 및 내구성 : 배포옵션 : 프리티어는 설정 불가  
+7. DB 인스턴스 식별자 : 대문자를 입력해도 소문자로 저장 됨
+8. 자격증명설정 : 마스터 사용자 : 이름 : admin (token처럼 입력에 필요)  
+9. 마스터 암호 : 8자 이상 (ASCII문자)  
+10. 인스턴스 구성 : 컴퓨터 사양 : 프리티어 설정 불가  
+11. 스토리지 : 스토리지 유형 : SSD, 할당스토리지: 20GB
+12. 연결 : 컴퓨팅 리소스 EC2와 연결 O, X (우선 NO)
+13. 퍼블릭억세스 (예:Open형, 아니오:시크릿)  
+14. 추가구성 : 포트:3306:Defualt(우선 사용, 회사는 변경)
+```
+✔MySQL WorkBench 설정 :
+```
+1. Download MySQL WorBench
+  - 사용자 OS 환경에 맞게 Download
+  - Login 없이 "no thanks, just start my download"
+2. MySQL Bench 설치 : 64bit 설치
+  - MySQL Connection "+" 클릭
+  - Connection Name: RDS에서 지정한 이름 : MyDB
+  - HOST Name : RDS - DB인스턴스 - DB식별자이름 - 
+    연결&보안 - 엔드포인트복사
+  - Username : RDS에서 만든 토큰같은거 admin  
+  - Password : 어드민 만들때 만든 마스터암호  
+  - Test Click Suecces: OK 클릭, connection 생성  
+  - Test Erorr: RDS- 연결&보안- vpc 보안그룹-  
+    인바운드 규칙- 인바운드규칙편집- 규칙추가-  
+    유형mysql/aurora(사용자지정TCP해도 됨) 	 
+    소스:애니웨어-규칙저장
+``` 
+- 워크벤치 설치 에러:https://musclebear.tistory.com/115   
 교수님 설치 방법: https://docs.google.com/presentation/d/12Xm89yzn-Lk6eacTjSn59hXrB28Ip4waDyPfe29jXDE/edit#slide=id.p
 
 
