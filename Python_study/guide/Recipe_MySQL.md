@@ -3,8 +3,8 @@
   - 서버의 환경과 동일하게  
         AWS Lambda를 이용한다. Python 3.10 version  
         (base는 중요X base에서 안함)
-  - $conda create -n 가상환경이름 python==3.10
-  - $conda activate lambda_app
+  - $conda create -n lambda_app(가상환경이름) python==3.10
+  - $conda activate lambda_app(가상환경이름)
   - 인터프리터(interpreter) 우측하단 : lambda_app 선택
   - $pip install flask flask-restful : FrameWalk "flask" 설치  
     - 프레임워크(framewallk)란 연결 통로?몰루
