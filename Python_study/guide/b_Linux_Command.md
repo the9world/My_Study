@@ -1,4 +1,6 @@
 ### Linux 명령어
+$conda create -n 가상환경이름 python=3.9 openssl numpy scipy matplotlib ipython scikit-learn pandas pillow jupyter seaborn
+
     mkdir 폴더명 (디렉토리 생성)  
     mkdir -p 상위폴더/하위폴더 (폴더를 만들 때 상위 폴더가 없으면 만든다.)  
     (tree 명령어를 사용하면 디렉토리, 파일 구조를 트리형식으로 볼 수 있다.)  
