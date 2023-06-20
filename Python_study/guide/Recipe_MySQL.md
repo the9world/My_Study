@@ -12,9 +12,12 @@
 
 
 ## 가상환경 생성 (2) MySQL(WorkBench)
-```sql
-use mysql; -- 우리가 만든 DB 말고 MySQL의 DB?
 
+- 유저를 만드려면 Mysql bench에서 admin 계정 들어가야함
+```sql
+-- mydb connection 들어가서 해야됨
+use mysql; -- 우리가 만든 DB 말고 MySQL의 DB?
+-- %는 네트워크 접속가능하게 하겟다
 create user 'recipe_db_user'@'%' identified by '3885';  -- recipe에만 접속?
 grant ALL privileges on recipe_db.* to 'recipe_db_user'@'%';
 -- grant ALL privileges on: 모든 권한 부여, 
@@ -27,7 +30,9 @@ grant ALL privileges on recipe_db.* to 'recipe_db_user'@'%';
       또는 my_db Connection 의 Host_name 복사  
   3. UserName은 코드에서 입력한 "recipe_db_user"
   4. Test 실행 - Password는 identified by '3885'에서 입력한 '3885'
+  5. 테이블 생성시 암호화하니까 패스워드 바챠 길게
 ---
+
 
  ## Restful API (Representational State Transfer)
 - 통신을 위한 REST 구성
