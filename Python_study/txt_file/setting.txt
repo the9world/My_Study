@@ -1,0 +1,4 @@
+python, vscode, git, anaconda,
+ec2, putty, MySQL_WorkBench, PostMan, ServerLess
+
+
