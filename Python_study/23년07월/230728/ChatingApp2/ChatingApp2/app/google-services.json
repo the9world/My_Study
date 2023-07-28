@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "539886508614",
+    "project_id": "chatingapp2-1aa9e",
+    "storage_bucket": "chatingapp2-1aa9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539886508614:android:971254f70729f88a428847",
+        "android_client_info": {
+          "package_name": "com.blue.chatingapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539886508614-abc851uidlfk84svjcan66j0evn8mp5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwKJ5_qtTsNxwxioB2pOkkCsE1K4EBfno"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539886508614-abc851uidlfk84svjcan66j0evn8mp5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
